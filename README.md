@@ -14,7 +14,7 @@ Setelah selesai mengunduh file Git, buka setup aplikasi Git untuk memulai proses
 Selanjutnya, pilih lokasi untuk install Git pada komputer Anda. Pada tutorial ini kami menginstall di lokasi C:\Program Files\Git. Setelah menentukan lokasi instalasi Git, klik Next untuk melanjutkan .
 
 4. Pilih Komponen Tambahan
-Kemudian pilih komponen tambahan untuk install Git. Fungsi komponen ini adalah untuk memperlancar penggunaan Git dan mendukung file dengan kapasitas besar. Sesuaikan komponen tambahan yang dipilih seperti pada gambar di bawah ini. Jika sudah klik Next untuk melanjutkan instalasi.
+Kemudian pilih komponen tambahan untuk install Git. Fungsi komponen ini adalah untuk memperlancar penggunaan Git dan mendukung file dengan kapasitas besar. Sesuaikan komponen tambahan yang dipilih. Jika sudah klik Next untuk melanjutkan instalasi.
 
 5. Tentukan Nama Aplikasi Git
 Sebenarnya Anda bebas mengganti nama aplikasi Git yang akan ditampilkan pada Start Menu. Akan tetapi, demi kemudahan saat mencari aplikasi ini, sebaiknya gunakan nama Git saja.  
@@ -39,44 +39,39 @@ Terdapat beberapa opsi ekstra yang bisa Anda pilih. Pertama, pilih Enable File S
 
 12. Mulai Proses Instalasi
 Setelah menambahkan konfigurasi ekstra pada Git, Anda bisa memulai proses instalasi Git. Klik Install untuk melanjutkan proses.
-
-Berikut ini adalah tampilan proses instalasi Git. Tunggu hingga proses selesai dan Anda bisa menggunakan Git pada Windows.
+Tunggu hingga proses selesai dan Anda bisa menggunakan Git pada Windows.
 
 13. Cek Versi Git
-Setelah proses instalasi selesai, Anda perlu mengecek apakah instalasi Git berhasil atau tidak. Anda bisa mengeceknya melalui Command Prompt. Klik Win+R lalu ketik CMD untuk membuka Command Prompt seperti di bawah ini.
+Setelah proses instalasi selesai, Anda perlu mengecek apakah instalasi Git berhasil atau tidak. Anda bisa mengeceknya melalui Command Prompt. Klik Win+R lalu ketik CMD untuk membuka Command Prompt.
 
-elanjutnya masukkan perintah berikut untuk cek versi git dan cek apakah Git sudah terinstall di komputer Anda.
-
+Selanjutnya masukkan perintah berikut untuk cek versi git dan cek apakah Git sudah terinstall di komputer Anda.
 git --version
-Jika Git berhasil terinstall, Anda akan melihat tampilan seperti di bawah ini yang menunjukkan versi Git. 
+Jika Git berhasil terinstall, Anda akan melihat tampilan yang menunjukkan versi Git. 
 
 Cara Menggunakan Git
-Setelah berhasil install ke Git, selanjutnya kami akan memberikan 10 langkah menggunakan Git. Berikut ini adalah sembilang langkah menggunakan Git.
+Setelah berhasil install ke Git, selanjutnya kami akan memberikan 10 langkah menggunakan Git. Berikut ini adalah langkah menggunakan Git.
 
 1. Login Git
 Untuk login ke Git, Anda bisa menggunakan akun GitHub, Gitlab, atau Bitbucket. Jika belum memiliki akun dari ketiga platform tersebut, Anda bisa mendaftarkan diri terlebih dahulu. Selanjutnya Anda bisa melakukan login awal pada Git  menggunakan Command Prompt  (Windows) atau Command Line (Linux) . Kemudian masukkan perintah-perintah yang akan kami jelaskan di bawah ini.
 
 Selanjutnya, masukkan username GitHub Anda menggunakan perintah di bawah ini. Lalu tekan ENTER jika sudah benar.
-
 $ git config --global user.name "UsernameAnda"
 Kemudian masukkan email yang terdaftar di GitHub Anda menggunakan perintah di bawah  ini. Lalu tekan ENTER jika sudah benar.
-
 $ git config --global user.email IsiDenganEmailAnda@gmail.com
+
 Selanjutnya untuk memastikan proses login Anda berhasil, masukkan perintah berikut.
 $ git config --list
 
 2. Login Github
 Langkah kedua dalam belajar menggunakan Git adalah Anda harus login ke dalam website GitHub. Github dan Git memiliki hubungan khusus, yaitu Git yang berperan sebagai version control system dan Github menjadi hosting atau sebagai penyimpan kode pemrograman.
 
-Setelah Anda login, akan muncul tampilan dashboard dari GitHub seperti  gambar di bawah ini.
+Setelah Anda login, akan muncul tampilan dashboard dari GitHub
 
 3. Buat Repository
 Setelah berhasil login ke GitHub, Anda bisa mulai membuat repository. Klik tombol New pada menu Repositories untuk membuat repository baru.
-
-Kemudian Anda akan diarahkan pada halaman untuk membuat repository baru seperti gambar di bawah ini.
+Kemudian Anda akan diarahkan pada halaman untuk membuat repository baru.
 
 Anda perlu mengisi detail informasi berikut:
-
 Nama Repository : digunakan untuk identitas repository yang dibuat.
 Deskripsi Repository : berfungsi untuk deskripsi dari repository yang dibuat.
 Jenis Repository   : jenis repository  dibagi menjadi Public dan Private. Ketika Anda mengatur repository menjadi Public, orang lain dapat melihat repository yang Anda buat. Sebaliknya, jika Anda mengaturnya sebagai Private, repository tersebut hanya bisa diakses oleh Anda.
@@ -86,7 +81,7 @@ Setelah mengisi detail informasi di atas, klik Create Repository.
 Selanjutnya, Anda perlu membuat folder pada local disk komputer Anda. Fungsinya adalah untuk menyimpan update file dari repository GitHub yang telah Anda buat.
 
 5. Buka Folder Menggunakan Git Bash
-Setelah berhasil membuat folder pada local disk komputer Anda,  buka folder tersebut dengan cara klik kanan lalu pilih Git Bash Here. Setelah itu, Command Prompt akan muncul seperti di bawah ini. 
+Setelah berhasil membuat folder pada local disk komputer Anda,  buka folder tersebut dengan cara klik kanan lalu pilih Git Bash Here. Setelah itu, Command Prompt akan muncul. 
 
 6. Ubah Folder Menjadi Repository
 Setelah itu, ubah folder tersebut menjadi repository menggunakan perintah berikut:
@@ -101,8 +96,9 @@ $ git add index.php
 Perintah tersebut tidak akan menghasilkan output apa pun.
 
 8. Buat Commit 
-Selanjutnya, Anda perlu membuat Commit. Commit berfungsi untuk menambahkan update file serta komentar. Jadi setiap kontributor bisa memberikan konfirmasi update file di proyek yang sedang dikerjakan. Masukkan perintah berikut untuk membuat Commit:
+Selanjutnya, Anda perlu membuat Commit. Commit berfungsi untuk menambahkan update file serta komentar. Jadi setiap kontributor bisa memberikan konfirmasi update file di proyek yang sedang dikerjakan. Masukkan perintah 
 
+berikut untuk membuat Commit:
 $ git commit -m "first commit"
 Pada tutorial ini kami membuat first commit sebagai Commit pertama kami. Anda bebas membuat membuat nama Commit apa saja.
 
@@ -113,11 +109,12 @@ $ git remote add origin git@github.com:UserNameGit/NamaRepository.git
 Perintah di atas tidak akan menghasilkan output apa pun.
 
 10. Push ke GitHub 
-Langkah terakhir adalah push ke GitHub Push ini berfungsi untuk mengupload hasil akhir dari langkah-langkah di atas. Masukkan perintah berikut untuk melakukan push ke GitHub:
+Langkah terakhir adalah push ke GitHub Push ini berfungsi untuk mengupload hasil akhir dari langkah-langkah di atas.
 
+Masukkan perintah berikut untuk melakukan push ke GitHub:
 git push -u origin master
 Perintah di atas akan menampilkan pop up sign in GitHub. Anda perlu login untuk melanjutkan proses push ke GitHub. 
-Jika proses login berhasil, akan muncul tampilan Command Prompt seperti di bawah:
+Jika proses login berhasil, akan muncul tampilan Command Prompt.
 
 11. Cek File 
 Setelah itu, cek repository yang telah Anda buat. Anda akan mendapati file-file yang telah ditambahkan sebelumnya. Pada tutorial ini kami menambahkan tiga file, yaitu index.php, single.php, dan README.txt. 
