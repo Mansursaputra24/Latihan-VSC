@@ -117,7 +117,6 @@ Langkah terakhir adalah push ke GitHub Push ini berfungsi untuk mengupload hasil
 
 git push -u origin master
 Perintah di atas akan menampilkan pop up sign in GitHub. Anda perlu login untuk melanjutkan proses push ke GitHub. 
-
 Jika proses login berhasil, akan muncul tampilan Command Prompt seperti di bawah:
 
 11. Cek File 
